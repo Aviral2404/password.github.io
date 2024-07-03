@@ -30,7 +30,7 @@ passwordInput.oninput = () => {
         switch (parameter.length - 1) {
             case 0:
                 spanRef[i].style.backgroundColor = "#ff3e36";
-                msg.innerHTML = "our password is very weak";
+                msg.innerHTML = "Your password is very weak";
                 msg.style.color = "#ff3e36";
                 break;
             case 1:
